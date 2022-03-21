@@ -2,5 +2,5 @@
 
 ---
 
-Intro duu HTML
+Intro to HTML
 
