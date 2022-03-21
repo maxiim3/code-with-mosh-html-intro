@@ -1,0 +1,26 @@
+.navbar {
+  justify-content: end;
+}
+
+.nav-link {
+  color: lightgoldenrodyellow;
+}
+
+img,
+video {
+  width: 50%;
+}
+
+/*
+======= 
+FOOTER 
+======= 
+*/
+
+.card {
+  justify-content: center;
+}
+
+#selfie {
+  width: 10rem;
+}

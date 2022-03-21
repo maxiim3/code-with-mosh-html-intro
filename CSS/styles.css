@@ -1,0 +1,183 @@
+/* 
+    ====================================
+                 VARIABLES 
+    ====================================
+*/
+
+:root {
+  --police1: "New Tegomin", serif;
+  --bleu: #0e0f4b;
+  --bleu2: #093070;
+  --blanc: #e5e5e5;
+  --beige: #efe1d3;
+  --gold: #f9a633;
+}
+/* 
+    ====================================
+             COULEURS & STYLES  
+    ====================================
+*/
+html {
+  background: linear-gradient(var(--bleu), var(--bleu2) 35%, var(--bleu) 90%);
+  color: var(--beige);
+}
+a:link,
+a:visited,
+a:hover,
+a:focus {
+  color: var(--gold);
+  text-decoration: none;
+}
+
+::selection {
+  background-color: var(--gold);
+}
+a::selection {
+  background-color: var(--blanc);
+}
+li {
+  list-style-type: none;
+}
+/* 
+    ====================================
+                 CONTAINERS  
+    ====================================
+*/
+html {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+header,
+main,
+footer {
+  margin: 1em 2em;
+}
+
+main p::after {
+  content: "...";
+  display: block;
+  font-size: 3em;
+}
+
+h2::before {
+  content: "----------------";
+  display: block;
+}
+#tables {
+  margin: 200px auto;
+  background-color: white;
+  width: 100%;
+  height: 200px;
+  color: black;
+  font-size: 15px;
+}
+table {
+  border-collapse: collapse;
+}
+td {
+  /* height: 30px; */
+  width: 150px;
+  padding: 5px 2px;
+}
+thead,
+tfoot {
+  color: white;
+  background-color: #427fef;
+  /* border-top: 0.2px solid #c4dcf3; */
+  box-shadow: 0px -1px 1px #427fef;
+
+  /* text-align: center; */
+}
+tbody tr:nth-of-type(odd) {
+  background-color: #eef7ff;
+  border-top: 1px solid #c4dcf3;
+  border-bottom: 1px solid #c4dcf3;
+}
+
+#cube div {
+  margin: 200px auto;
+  width: 300px;
+  height: 300px;
+  background: tomato;
+  border-radius: 10px;
+  box-shadow: 10px 10px lightgrey;
+}
+/* 
+    ====================================
+                 FONTS  
+    ====================================
+*/
+body {
+  font-family: var(--police1);
+  text-align: justify;
+  font-size: 50%;
+}
+
+h1 {
+  font-size: 4em;
+  text-align: center;
+  font-weight: bolder;
+  text-shadow: 2px 2px 5px rgba(100, 100, 100, 0.9);
+}
+/* s
+    ====================================
+                 BORDERS  
+    ====================================
+*/
+
+/* 
+    ====================================
+                 IMAGES & VIDEOS
+    ====================================
+*/
+img,
+video {
+  margin: 200px auto;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 100%;
+  object-fit: cover;
+  box-shadow: 10px 10px 30px lightgrey;
+}
+
+footer {
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+footer img,
+footer p,
+footer a {
+  display: grid;
+}
+
+h2 {
+  display: block;
+}
+
+#selfie {
+  --HW-control--: 10rem;
+  width: var(--HW-control--);
+  height: var(--HW-control--);
+  border-radius: 100%;
+  float: left;
+}
+
+/* 
+    ====================================
+                 QUERRY  
+    ====================================
+*/
+/* 
+    ====================================
+                 HOVERS  
+    ====================================
+*/
+/* 
+    ====================================
+                 ANIMATIONS  
+    ====================================
+*/ ;
